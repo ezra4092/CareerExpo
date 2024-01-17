@@ -196,3 +196,14 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }, 1000); // Sesuaikan durasi penundaan jika perlu
 });
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  var webTextElement = document.querySelector(".judul");
+  if (webTextElement) {
+    // Menggunakan setTimeout untuk memberikan jeda sebelum mengubah opacity
+    setTimeout(function () {
+      webTextElement.style.opacity = "1";
+    }, 1000); // Sesuaikan durasi penundaan jika perlu
+  }
+});

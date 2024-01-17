@@ -220,6 +220,10 @@ ul, li, ol {
     animation: slideInFromLeft 2s ease-in-out;
 }
 
+.judul {
+  animation: slideInFromRight 2s ease-in-out;
+}
+
 @keyframes slideInFromLeft {
             from {
                 opacity: 0;
